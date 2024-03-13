@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif; 
+    background-position: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 360px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wrapper input, select {
+    width: 94%;
+    padding: 3px;
+    border: 1px solid #545252;
+    border-radius: 5px;
+}
+
+.wrapper input[type="submit"] {
+    width: 94%;
+    padding: 10px;
+    background-color: #f96bbb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper p a {
+    color: #f96bbb  ;
+    text-decoration: none;
+}
+
+.wrapper p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif; 
+    background-image: url('img/anh\ nen\ 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 360px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wrapper input[type="text"],
+.wrapper input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wrapper span {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.wrapper input[type="submit"] {
+    width: 94%;
+    padding: 10px;
+    background-color: #f96bbb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper p a {
+    color: #f96bbb  ;
+    text-decoration: none;
+}
+
+.wrapper p a:hover {
+    text-decoration: underline;
+}
